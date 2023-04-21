@@ -1,5 +1,5 @@
 {
-    "name": "Mention Bot",
+    "name": "XD Mention Bot",
     "description": "Simple telegram bot for news in Telethon.",
     "logo": "",
     "keywords": [
@@ -8,9 +8,9 @@
         "telegram-bot",
         "mention"
     ],
-    "repository": "https://github.com/noob-kittu/MentionBot",
+    "repository": "https://github.com/DIGITALBOTXD/MentionBot",
     "website": "yonerobot.com",
-    "success_url": "https://t.me/KoraSupport",
+    "success_url": "https://t.me/XD_BOTZZ",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
