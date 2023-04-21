@@ -41,7 +41,7 @@ RUn = yone.start(bot_token=BOT_TOKEN)
 
 @yone.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**Hey, I'm Kimjikoin Mention Bot**, I can Tag almost all members in group or channel \nHit Command - **/help** for more information\n\n",
+  await event.reply("**Hey, I'm XD Mention Bot**, I can Tag almost all members in group or channel \nHit Command - **/help** for more information\n\n",
                     buttons=(
                       [Button.url('Support', 'https://t.me/kimjikoinsupport'),
                       Button.url('Developer', 'https://t.me/kimjikoin')]
@@ -53,11 +53,11 @@ async def start(event):
 
 @yone.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of Yone Mention Bot**\n\nCommand: /Mention\nYou can use this command with text what you want to Tag others.\n`Example: /mention how are you buddy?`\nYou can you this command as a reply to any message. Bot will tag users to that replied messsage."
+  helptext = "**Help Menu of XD Mention Bot**\n\nCommand: /Mention\nYou can use this command with text what you want to Tag others.\n`Example: /mention how are you buddy?`\nYou can you this command as a reply to any message. Bot will tag users to that replied messsage."
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Support', 'https://t.me/kimjikoinsupport'),
-                      Button.url('Developer', 'https://github.com/kimjikoin')]
+                      [Button.url('Support', 'https://t.me/ABOUT_ROCKY_FIGHTER'),
+                      Button.url('Developer', 'https://github.com/DIGITALBOTXD')]
                     ),
                     link_preview=False
                    )
