@@ -43,8 +43,8 @@ RUn = yone.start(bot_token=BOT_TOKEN)
 async def start(event):
   await event.reply("**Hey, I'm XD Mention Bot**, I can Tag almost all members in group or channel \nHit Command - **/help** for more information\n\n",
                     buttons=(
-                      [Button.url('Support', 'https://t.me/kimjikoinsupport'),
-                      Button.url('Developer', 'https://t.me/kimjikoin')]
+                      [Button.url('Support', 'https://t.me/XD_BOTZZ'),
+                      Button.url('Developer', 'https://t.me/XD_MUSIC_BOTZ')]
                     ),
                     link_preview=False
                    )
